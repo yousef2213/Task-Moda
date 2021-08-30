@@ -1,0 +1,74 @@
+.icon-div {
+    position: absolute;
+    z-index: 838383838;
+    top: 20px;
+    left: 50px;
+}
+
+.icon-nav {
+    color: #222;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.div-iconss {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: 0.6s all ease-in-out;
+}
+
+.iconss {
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.addNone {
+    display: none;
+}
+
+.addWidth {
+    max-width: 16.666667% !important;
+    transition: 0.3s all ease-in-out;
+}
+
+.removeWidth {
+    max-width: 0 !important;
+    transition: 0.6s all ease-in-out;
+}
+
+.coll-1 {
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+    transition: 0.3s all ease-in-out;
+}
+
+@media only screen and (min-width: 992px) {
+
+    .icon-div,
+    .div-iconss {
+        display: none !important;
+        transition: 0.3s all ease-in-out;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-bar-backGround {
+        max-width: 0;
+        position: fixed;
+        left: 0;
+        height: 100%;
+        top: 0;
+        z-index: 44444;
+    }
+
+    .coll-1 {
+        flex: 0 0 16.666667%;
+        max-width: 0%;
+        transition: 0.3s all ease-in-out;
+    }
+
+}
+
